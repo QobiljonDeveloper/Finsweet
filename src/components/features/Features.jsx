@@ -17,7 +17,7 @@ const Features = () => {
               key={item.id}
             >
               <img src={item.img} alt="" />
-              <h2 className="text-2xl font-normal mt-6">{item.title}</h2>
+            <h2 className="text-2xl font-normal mt-6">{item.title}</h2>
               <p className="font-normal text-[16px] leading-6 mt-2">
                 {item.description}
               </p>

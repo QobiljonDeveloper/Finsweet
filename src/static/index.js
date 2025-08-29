@@ -1,6 +1,10 @@
 import icon_1 from "../assets/customize.svg";
 import icon_2 from "../assets/question.svg";
 import icon_3 from "../assets/timer.svg";
+import john from "../assets/john.png";
+import simon from "../assets/simon.png";
+import paul from "../assets/paul.png";
+import sara from "../assets/sara.png";
 
 export const feature = [
   {
@@ -41,5 +45,32 @@ export const feature = [
     title: "Hands-on approach",
     description:
       "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. ",
+  },
+];
+
+export const team = [
+  {
+    id: 1,
+    img: john,
+    title: "John Smith",
+    bio: "CEO",
+  },
+  {
+    id: 2,
+    img: simon,
+    title: "Simon Adams",
+    bio: "CTO",
+  },
+  {
+    id: 3,
+    img: paul,
+    title: "Paul Jones",
+    bio: "Design Lead",
+  },
+  {
+    id: 4,
+    img: sara,
+    title: "Sara Hardin",
+    bio: "Project Manager",
   },
 ];
