@@ -3,12 +3,14 @@ import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <header className="bg-[#1C1E53] fixed w-full z-40">
+    <header className="bg-[#1C1E53]">
       <div className="container">
         <nav className="h-[92px] py-8 flex justify-between items-center">
           {/* Header logo */}
           <div className="">
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
           </div>
           {/* Header links */}
           <ul className="flex gap-10 items-center text-[#BBBBCB]">

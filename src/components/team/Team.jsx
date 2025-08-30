@@ -17,7 +17,7 @@ const Team = () => {
             >
               <div className="relative group w-full flex justify-center">
                 <img src={item.img} alt="" className="w-full" />
-                {item.id == 1 && (
+                 {item.id == 1 && (
                   <div className="absolute inset-0 rounded-full bg-gradient-to-b from-[rgba(255,255,255,0.35)] from-[42%] to-[rgba(82,57,250,0.79)] flex items-end gap-4">
                     <div className="flex mb-7 mx-auto gap-2.5 justify-end items-end">
                       <FaFacebook className="text-xl text-white cursor-pointer" />
