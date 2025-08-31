@@ -43,7 +43,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 placeholder="Provide context"
-                className="mt-2 w-full rounded-md border border-gray-300 p-3  focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 p-3 "
               />
             </div>
 
