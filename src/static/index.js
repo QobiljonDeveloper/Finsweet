@@ -9,6 +9,19 @@ import player from "../assets/player.svg";
 import gray_player from "../assets/gray-player.svg";
 import plus from "../assets/plus.svg";
 import first from "../assets/first.png"
+import second from "../assets/second.png"
+import third from "../assets/third.png"
+import fourth from "../assets/fourth.png"
+import fifth from "../assets/fifth.png"
+import sixth from "../assets/sixth.png"
+import blog_1 from "../assets/blog-1.png"
+import blog_2 from "../assets/blog-2.png"
+import blog_3 from "../assets/blog-3.png"
+import blog_4 from "../assets/blog-4.png"
+import blog_5 from "../assets/blog-5.png"
+import blog_6 from "../assets/blog-6.png"
+
+
 
 export const feature = [
   {
@@ -175,7 +188,7 @@ export const templates = [
   },
   {
     id: 2,
-    img: first,
+    img: second,
     title: "Template 2",
     description:
       "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
@@ -184,7 +197,7 @@ export const templates = [
 
   {
     id: 3,
-    img: first,
+    img: third,
     title: "Template 3",
     description:
       "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
@@ -192,7 +205,7 @@ export const templates = [
   },
   {
     id: 4,
-    img: first,
+    img: fourth,
     title: "Template 4",
     description:
       "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
@@ -200,7 +213,7 @@ export const templates = [
   },
   {
     id: 5,
-    img: first,
+    img: fifth,
     title: "Template 5",
     description:
       "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
@@ -208,10 +221,75 @@ export const templates = [
   },
   {
     id: 6,
-    img: first,
+    img: sixth,
     title: "Template 6",
     description:
       "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
     button: "Read case study",
+  },
+];
+
+
+
+export const blogs = [
+  {
+    id: 1,
+    img: blog_1,
+    date: "27 Jan 2021",
+    title:
+      "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    description:
+      "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    button: "Read More",
+  },
+  {
+    id: 2,
+    img: blog_2,
+    date: "27 Jan 2021",
+    title:
+      "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    description:
+      "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    button: "Read More",
+  },
+  {
+    id: 3,
+    img: blog_3,
+    date: "27 Jan 2021",
+    title:
+      "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    description:
+      "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    button: "Read More",
+  },
+  {
+    id: 4,
+    img: blog_4,
+    date: "27 Jan 2021",
+    title:
+      "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    description:
+      "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    button: "Read More",
+  },
+  {
+    id: 5,
+    img: blog_5,
+    date: "27 Jan 2021",
+    title:
+      "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    description:
+      "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    button: "Read More",
+  },
+  {
+    id: 6,
+    img: blog_6,
+    date: "27 Jan 2021",
+    title:
+      "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    description:
+      "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    button: "Read More",
   },
 ];

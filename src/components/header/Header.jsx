@@ -32,7 +32,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/contact-us"
+              to="/contact-us"
                 className="py-4 px-12 bg-transparent border border-solid border-[#494A72] rounded-full"
               >
                 Contact us
